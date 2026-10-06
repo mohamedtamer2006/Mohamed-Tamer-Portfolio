@@ -1,0 +1,356 @@
+{
+  "projects": [
+    {
+      "codename": "Mission 01",
+      "title": "SafePath AI",
+      "tagline": "Disaster early-warning system",
+      "description": "An AI-powered disaster early-warning and evacuation route guidance platform engineered across 3 phases of the AI for All Hackathon. Transforms multi-source hazard data into real-time risk scores (hazard, exposure, vulnerability), predicts risk escalation, provides safe evacuation paths, and features a multilingual crisis-calm chatbot.",
+      "tags": [
+        "Python",
+        "Flask",
+        "PostgreSQL",
+        "OpenAI API",
+        "SMS Alerts",
+        "Next.js",
+        "TypeScript",
+        "Computer Vision"
+      ],
+      "role": "AI/ML Developer, Team ResiliAfrica · AI for All Hackathon (Phase 1 Ideation → Phase 2 Prototyping → Phase 3 Regional Finals, Alexandria)",
+      "status": "Deployed",
+      "image": "/images/projects/safepath-ai.png",
+      "links": [
+        {
+          "label": "Backend Code",
+          "href": "https://github.com/mohamedtamer2006/SafePath_AI_Backend",
+          "kind": "code"
+        },
+        {
+          "label": "Frontend Code",
+          "href": "https://github.com/mohamedtamer2006/SafePath_AI_Frontend",
+          "kind": "code"
+        },
+        {
+          "label": "Live Demo",
+          "href": "https://safepathai-eight.vercel.app/",
+          "kind": "live"
+        }
+      ]
+    },
+    {
+      "codename": "Mission 02",
+      "title": "Renewable Energy Grid Maintenance Network",
+      "tagline": "Data-safe maintenance operations",
+      "description": "A full-stack app for managing renewable energy sites, power units, technicians, and maintenance inspections. Raw SQL on a SQL Server schema, 6+ analytical queries, a dashboard summary view, and a light/dark vanilla JS frontend.",
+      "tags": [
+        "Node.js",
+        "Express",
+        "SQL Server",
+        "mssql",
+        "ERD Design",
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "role": "Team Lead · led 5 members, owned timeline, architecture, and technical decisions · May 2026",
+      "status": "Deployed",
+      "image": "/images/projects/grid-maintain.png",
+      "links": [
+        {
+          "label": "View Code",
+          "href": "https://github.com/mohamedtamer2006/Renewable-Energy-Grid-Maintenance-Network",
+          "kind": "code"
+        },
+        {
+          "label": "Live Demo",
+          "href": "https://code-analysis-bot--motamer.replit.app/",
+          "kind": "live"
+        }
+      ]
+    },
+    {
+      "codename": "Mission 03",
+      "title": "Quizer",
+      "tagline": "Online exams for students",
+      "description": "A full-stack exam platform with quiz creation, quiz-taking, exam history, profile pages, and sign-in / registration flows, deployed on Vercel.",
+      "tags": [
+        "Node.js",
+        "Express",
+        "EJS",
+        "SQLite",
+        "Vercel"
+      ],
+      "role": "Team Member · Cairo University · May 2026",
+      "status": "Deployed",
+      "image": "/images/projects/quizer.png",
+      "links": [
+        {
+          "label": "View Code",
+          "href": "https://github.com/Mahmoud-Hashim-pro/Online-exam-platform",
+          "kind": "code"
+        },
+        {
+          "label": "Live Demo",
+          "href": "https://online-exam-platform-delta.vercel.app/",
+          "kind": "live"
+        }
+      ]
+    },
+    {
+      "codename": "Mission 04",
+      "title": "Soccer League",
+      "tagline": "League management app",
+      "description": "A Java desktop app for managing teams, players, and matches, backed by a SQL Server database with its own schema and seed script.",
+      "tags": [
+        "Java",
+        "OOP",
+        "IntelliJ",
+        "Microsoft SQL Server"
+      ],
+      "role": "Individual project · DEPI · Sep 2025",
+      "status": "Code available",
+      "image": "/images/projects/soccer-league.png",
+      "fit": "contain",
+      "links": [
+        {
+          "label": "View Code",
+          "href": "https://github.com/mohamedtamer2006/SOCCER",
+          "kind": "code"
+        }
+      ]
+    },
+    {
+      "codename": "Mission 05",
+      "title": "PHP Travel Booking System",
+      "tagline": "Software testing project",
+      "description": "Designed and ran test cases for the booking, search, and payment workflows of a travel booking web app, logged functional defects, and verified fixes with the dev team using manual and automated testing.",
+      "tags": [
+        "Selenium",
+        "Java",
+        "Maven",
+        "IntelliJ",
+        "Excel",
+        "Manual Testing"
+      ],
+      "role": "Team Lead · led 5 members, owned timeline and architecture · DEPI, Nov–Dec 2025",
+      "status": "Completed",
+      "image": "/images/projects/phptravels.png",
+      "links": [
+        {
+          "label": "View Repository",
+          "href": "https://github.com/mohamedtamer2006/php-Travel-Booking-System-Testing",
+          "kind": "code"
+        }
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "title": "HCIA-AI V4.0",
+      "issuer": "Huawei ICT Academy",
+      "year": "Sep 2026",
+      "image": "/images/certs/huawei.png"
+    },
+    {
+      "title": "AI for All Hackathon — Regional Final",
+      "issuer": "AYAB-DRR, African Union",
+      "year": "Sep 2026",
+      "image": "/images/certs/hack-final.png"
+    },
+    {
+      "title": "AI for All Hackathon — Virtual Boot Camp",
+      "issuer": "AYAB-DRR, African Union",
+      "year": "Aug 2026",
+      "image": "/images/certs/hack-boot.png"
+    },
+    {
+      "title": "Introduction to Modern AI",
+      "issuer": "Cisco Networking Academy",
+      "year": "Jul 2026",
+      "image": "/images/certs/cisco.png"
+    },
+    {
+      "title": "Nile University Competitive Programming Arena (NUCPA)",
+      "issuer": "Nile University & ICPCNU Community (Team Erorr 404)",
+      "year": "Feb 2026",
+      "image": "/images/certs/nucpa.png"
+    },
+    {
+      "title": "Introduction to Generative AI Studio",
+      "issuer": "Google Cloud",
+      "year": "Mar 2026",
+      "image": "/images/certs/gen-ai.png"
+    },
+    {
+      "title": "Introduction to Responsible AI",
+      "issuer": "Google Cloud",
+      "year": "Mar 2026",
+      "image": "/images/certs/responsible-ai.png"
+    },
+    {
+      "title": "Business English Track (Round 3)",
+      "issuer": "MCIT — Digital Egypt Pioneers (OTO Courses)",
+      "year": "Jun — Dec 2025",
+      "image": "/images/certs/business-english.png"
+    },
+    {
+      "title": "DEPI — Software Development, Software Tester",
+      "issuer": "MCIT, Digital Egypt Pioneers",
+      "year": "2025",
+      "image": "/images/certs/depi-testing.png"
+    }
+  ],
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Shipped projects"
+    },
+    {
+      "value": "250+",
+      "label": "ML Training Hours"
+    },
+    {
+      "value": "2",
+      "label": "Teams led (5 members)"
+    },
+    {
+      "value": "12+",
+      "label": "Certificates earned"
+    },
+    {
+      "value": "2.9",
+      "label": "Cumulative GPA"
+    },
+    {
+      "value": "3rd",
+      "label": "Year at Cairo University"
+    }
+  ],
+  "aboutLines": [
+    {
+      "tag": "Identity",
+      "text": "I’m Mohamed Tamer, in my third year of Software Engineering at Cairo University’s Faculty of Computing and Artificial Intelligence."
+    },
+    {
+      "tag": "Capabilities",
+      "text": "I design and build AI-powered products: RAG systems, ML models, Computer Vision applications, and production-ready backends with FastAPI."
+    },
+    {
+      "tag": "Statistics",
+      "text": "Backed by rigorous mathematical and statistical training in probability distributions, hypothesis testing, and exploratory data analysis to ensure models are accurate and reliable."
+    },
+    {
+      "tag": "Allies",
+      "text": "I help startups, businesses, and recruiters turn ideas into reliable, working software."
+    },
+    {
+      "tag": "Edge",
+      "text": "I combine solid software engineering with hands-on machine learning, so my solutions are not just smart but deployable."
+    },
+    {
+      "tag": "Training",
+      "text": "Completed 250+ hours in the Microsoft ML Engineer track at DEPI (with AMIT Learning), mastering end-to-end ML, Deep Learning, and Azure MLOps, alongside freelancing on Upwork, Mostaql, and Kafeel."
+    },
+    {
+      "tag": "Leadership",
+      "text": "I’ve led two 5-member teams directing architecture and delivery, and reached the regional finals in Alexandria after completing all three phases of the AI for All Hackathon."
+    },
+    {
+      "tag": "Origin",
+      "text": "I’m driven by building technology that protects and helps people, like early-warning systems for disasters."
+    },
+    {
+      "tag": "Next",
+      "text": "Let’s build something remarkable together."
+    }
+  ],
+  "profile": {
+    "name": "Mohamed Tamer",
+    "title": "AI / ML / Software Engineer",
+    "email": "mohammed.tamer.mot@gmail.com",
+    "phone": "+20 1200660007",
+    "github": "https://github.com/mohamedtamer2006",
+    "linkedin": "https://www.linkedin.com/in/mohamed-tamer-53113a230/",
+    "cvUrl": "/Mohamed-Tamer-CV.pdf",
+    "coverPhoto": "/images/cover-portrait.webp",
+    "aboutPhoto": "/images/about-photo.webp"
+  },
+  "analytics": [
+    {
+      "type": "pageview",
+      "label": "Page View",
+      "path": "/",
+      "referrer": "http://localhost:3000/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "screen": "1280x800",
+      "ip": "::1",
+      "visitor_id": "v_muwjy7a1_1jmn4f",
+      "id": "ev_1791285551140_pon1a",
+      "created_at": "2026-10-06T11:19:11.140Z"
+    },
+    {
+      "type": "pageview",
+      "label": "Page View",
+      "path": "/",
+      "referrer": "http://localhost:3000/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "screen": "1280x800",
+      "ip": "::1",
+      "visitor_id": "v_muwjy7a1_1jmn4f",
+      "id": "ev_1791285550821_hmp19",
+      "created_at": "2026-10-06T11:19:10.821Z"
+    },
+    {
+      "type": "pageview",
+      "label": "Page View",
+      "path": "/",
+      "referrer": "http://localhost:3000/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "screen": "1280x800",
+      "ip": "::1",
+      "visitor_id": "v_muwjy7a1_1jmn4f",
+      "id": "ev_1791285405324_t3li0",
+      "created_at": "2026-10-06T11:16:45.324Z"
+    },
+    {
+      "type": "pageview",
+      "label": "Page View",
+      "path": "/",
+      "referrer": "http://localhost:3000/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "screen": "1280x800",
+      "ip": "::1",
+      "visitor_id": "v_muwjy7a1_1jmn4f",
+      "id": "ev_1791285405261_fi2pm",
+      "created_at": "2026-10-06T11:16:45.261Z"
+    },
+    {
+      "type": "pageview",
+      "label": "Page View",
+      "path": "/admin",
+      "referrer": "http://localhost:3000/admin",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "screen": "1280x800",
+      "ip": "::1",
+      "visitor_id": "v_muwjy7a1_1jmn4f",
+      "id": "ev_1791283506919_2vfsj",
+      "created_at": "2026-10-06T10:45:06.919Z"
+    },
+    {
+      "type": "pageview",
+      "label": "Page View",
+      "path": "/admin",
+      "referrer": "http://localhost:3000/admin",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "screen": "1280x800",
+      "ip": "::1",
+      "visitor_id": "v_muwjy7a1_1jmn4f",
+      "id": "ev_1791283506828_y9xxt",
+      "created_at": "2026-10-06T10:45:06.828Z"
+    }
+  ],
+  "messages": [],
+  "admin": {
+    "email": "mohamed.tamer.8006@gmail.com",
+    "passwordHash": "0632084eedba6a7f8db4d32d8fa1ce0c882e5a389ac6d7e9e1210bfc0ac709246d824ab412770b8e8ce0c750064a6eb8f13f328067010eccb9df15d53a7a9ac3",
+    "salt": "61223ef69623de82be87033195ff2606"
+  }
+}

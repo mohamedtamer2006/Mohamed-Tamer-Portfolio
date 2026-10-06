@@ -1,12 +1,28 @@
+'use client'
+
+import { useEffect, useState } from 'react'
 import { ExternalLink, Target } from 'lucide-react'
 import { GithubIcon as Github } from '@/components/brand-icons'
 import { PhotoPlaceholder } from '@/components/photo-placeholder'
 import { Reveal } from '@/components/reveal'
 import { SectionHeading } from '@/components/section-heading'
-import { projects } from '@/lib/portfolio-data'
+import { projects as defaultProjects } from '@/lib/portfolio-data'
 import { cn } from '@/lib/utils'
 
 export function Projects() {
+  const [items, setItems] = useState(defaultProjects)
+
+  useEffect(() => {
+    fetch('/api/portfolio-data')
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.projects && Array.isArray(data.projects) && data.projects.length > 0) {
+          setItems(data.projects)
+        }
+      })
+      .catch(() => {})
+  }, [])
+
   return (
     <section id="projects" className="scroll-mt-16 py-24 md:py-32">
       <div className="mx-auto max-w-6xl px-4">
@@ -18,7 +34,7 @@ export function Projects() {
         />
 
         <div className="flex flex-col gap-10">
-          {projects.map((project, i) => (
+          {items.map((project, i) => (
             <Reveal key={project.title}>
               <article className="hud-card group grid overflow-hidden lg:grid-cols-2">
                 <div className={cn('relative min-h-64 border-border lg:min-h-full', i % 2 === 1 && 'lg:order-2')}>

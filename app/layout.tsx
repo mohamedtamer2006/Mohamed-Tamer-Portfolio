@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import { Bebas_Neue, Inter } from 'next/font/google'
 import { ScrollProgress, SparkCursor } from '@/components/sparks'
 import { ThemeProvider } from '@/components/theme-provider'
+import { AnalyticsTracker } from '@/components/analytics-tracker'
 import './globals.css'
 
 const bebas = Bebas_Neue({
@@ -65,6 +66,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className={`${bebas.variable} ${inter.variable}`}>
       <body className="antialiased">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
+          <AnalyticsTracker />
           <ScrollProgress />
           <SparkCursor />
           {children}

@@ -1,10 +1,26 @@
+'use client'
+
+import { useEffect, useState } from 'react'
 import { Award } from 'lucide-react'
 import { PhotoPlaceholder } from '@/components/photo-placeholder'
 import { Reveal } from '@/components/reveal'
 import { SectionHeading } from '@/components/section-heading'
-import { certificates } from '@/lib/portfolio-data'
+import { certificates as defaultCertificates } from '@/lib/portfolio-data'
 
 export function Certificates() {
+  const [items, setItems] = useState(defaultCertificates)
+
+  useEffect(() => {
+    fetch('/api/portfolio-data')
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.certificates && Array.isArray(data.certificates) && data.certificates.length > 0) {
+          setItems(data.certificates)
+        }
+      })
+      .catch(() => {})
+  }, [])
+
   return (
     <section id="certificates" className="relative scroll-mt-16 overflow-hidden py-24 md:py-32">
       <div
@@ -21,7 +37,7 @@ export function Certificates() {
         />
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {certificates.map((cert, i) => (
+          {items.map((cert, i) => (
             <Reveal key={`${cert.title}-${i}`} delay={(i % 3) * 90}>
               <article className="group relative flex h-full flex-col items-center gap-4 border border-gold/40 bg-panel p-6 pt-0 text-center transition-all duration-300 hover:-translate-y-1.5 hover:border-gold hover:shadow-[0_20px_60px_-25px_var(--gold)]">
                 <div className="flex flex-col items-center" aria-hidden="true">
